@@ -36,19 +36,19 @@ export class Board{
     logicGame(symbol){
         if (this.cells[0].mark == symbol && this.cells[1].mark == symbol && this.cells[2].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[2] == symbol && this.cells[5] == symbol && this.cells[8] == symbol) {
+        } else if (this.cells[2].mark == symbol && this.cells[5].mark == symbol && this.cells[8].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[6] == symbol && this.cells[7] == symbol && this.cells[8] == symbol) {
+        } else if (this.cells[6].mark == symbol && this.cells[7].mark == symbol && this.cells[8].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[0] == symbol && this.cells[3] == symbol && this.cells[6] == symbol) {
+        } else if (this.cells[0].mark == symbol && this.cells[3].mark == symbol && this.cells[6].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[1] == symbol && this.cells[4] == symbol && this.cells[7] == symbol) {
+        } else if (this.cells[1].mark == symbol && this.cells[4].mark == symbol && this.cells[7].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[3] == symbol && this.cells[4] == symbol && this.cells[5] == symbol) {
+        } else if (this.cells[3].mark == symbol && this.cells[4].mark == symbol && this.cells[5].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[0] == symbol && this.cells[4] == symbol && this.cells[8] == symbol) {
+        } else if (this.cells[0].mark == symbol && this.cells[4].mark == symbol && this.cells[8].mark == symbol) {
             this.isGameOver = true;
-        } else if (this.cells[2] == symbol && this.cells[4] == symbol && this.cells[6] == symbol) {
+        } else if (this.cells[2].mark == symbol && this.cells[4].mark == symbol && this.cells[6].mark == symbol) {
             this.isGameOver = true;
         }
       };    
